@@ -20,6 +20,7 @@
 		32370068276CA88B00E072D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3237006B276CA88B00E072D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3237006D276CA88B00E072D4 /* Dammit_Steven.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dammit_Steven.entitlements; sourceTree = "<group>"; };
+		32370073276CAD2C00E072D4 /* Dammit-Steven-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dammit-Steven-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		32370063276CA88A00E072D4 /* Dammit Steven */ = {
 			isa = PBXGroup;
 			children = (
+				32370073276CAD2C00E072D4 /* Dammit-Steven-Info.plist */,
 				32370064276CA88A00E072D4 /* Dammit_StevenApp.swift */,
 				32370066276CA88A00E072D4 /* ContentView.swift */,
 				32370068276CA88B00E072D4 /* Assets.xcassets */,
@@ -276,6 +278,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dammit-Steven-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,6 +306,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dammit-Steven-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
